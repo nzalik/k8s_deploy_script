@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les noms des fichiers de déploiement
-DEPLOYMENT_FILES=("prometheus-deployment-copy-default.yaml" "clusterRole-copy-default.yaml" "prometheus-service-copy-default.yaml")
+DEPLOYMENT_FILES=("clusterRole.yaml" "config-map.yaml" "prometheus-service.yaml" "prometheus-deployment.yaml")
 
 # Définir le namespace si nécessaire
 NAMESPACE="default"
