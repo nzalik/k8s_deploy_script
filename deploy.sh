@@ -7,7 +7,7 @@ deploy_pod() {
 
 main() {
     files=(
-        "clusterRole.yaml""
+          "clusterRole.yaml"
         "config-map.yaml"
         "prometheus-service.yaml"
         "prometheus-deployment.yaml"
